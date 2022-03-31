@@ -1,0 +1,268 @@
+
+body {
+
+}
+
+.logo1 {
+    position: absolute;
+    width: 146.09px;
+    height: 32px;
+    left: 166.15px;
+    top: 58px;
+}
+
+.bgmaindesktop {
+    position: absolute;
+    width: 1613px;
+    height: 1758px;
+    left: -146px;
+    top: -112px;
+}
+
+#myHeader {
+    position: absolute;
+    width: 1015px;
+    height: 176px;
+    left: 165px;
+    top: 170px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+
+    letter-spacing: -1px;
+}
+
+#headerParagraph {
+    position: absolute;
+    width: 825px;
+    height: 102px;
+    left: 164.5px;
+    top: 425px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.bgpattern1 {
+    position: absolute;
+    width: 312px;
+    height: 468px;
+    left: 1128px;
+    top: -40px;
+}
+
+.middlecontainer {
+    display: flex;
+}
+
+.illustrationapp {
+    position: absolute;
+    width: 312px;
+    height: 642px;
+    left: 267px;
+    top: 647px;
+    z-index: 1;
+    
+}
+
+.premium_text_block {
+    background-color: #FA7453;
+    color: #FCFAF9;
+    position: absolute;
+    width: 446px;
+    height: 625px;
+    left: 734px;
+    top: 950px;
+    border-radius: 15px;
+    display: inline-block;
+
+
+}
+
+#premheader {
+    position: absolute;
+    width: 333px;
+    height: 52px;
+    margin: 45px 25px 25px 55px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+#premparagraph {
+    position: absolute;
+    width: 333px;
+    height: 170px;
+    margin: 115px 25px 25px 55px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+#premfour {
+    position: absolute;
+    height: 52px;
+    left: 0%;
+    right: 52.12%;
+    top: calc(50% - 52px/2);
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    margin: 50px 25px 25px 55px;
+}
+
+#premmonth {
+    position: absolute;
+    height: 32px;
+    left: 57.58%;
+    right: 0%;
+    top: calc(50% - 32px/2 - 1px);
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    margin: 50px 25px 25px -105px;
+}
+
+#black-box {
+    background-color: #191826;
+    position: absolute;
+    width: 1110px;
+    height: 600px;
+    left: 165px;
+    top: 860px; 
+    border-radius: 15px;
+
+}
+
+.bgpattern2 {
+    position: absolute;
+    width: 312px;
+    height: 468px;
+    left: 336px;
+    top: -40px;
+}
+
+#iosbutton {
+    background-color: #191826;
+    color: #FCFAF9;
+    border-radius: 12px;
+    border: none;
+    position: absolute;
+    width: 333px;
+    height: 61px;
+    margin: 445px 25px 25px 55px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;  
+}
+#ios {
+    position: absolute;
+    left: 25%;
+    right: 30%;
+    top: 33%;
+    bottom: 15%;
+}
+#androidbutton {
+    background-color: #FCFAF9;
+    color: #191826;
+    border-radius: 12px;
+    border: none;
+    position: absolute;
+    width: 333px;
+    height: 61px;
+    margin: 520px 25px 25px 55px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;  
+}
+
+#android {
+    position: absolute;
+    left: 19%;
+    right: 30%;
+    top: 33%;
+    bottom: 15%;
+}
+
+.container {
+
+    position: absolute;
+    width: 1110px;
+    height: 79px;
+    left: 165px;
+    top: 1662px;
+}
+
+.column1 {
+    position: absolute;
+    width: 146.09px;
+    height: 32px;
+    left: 1.15px;
+    top: 15px;
+}
+
+.column2 {
+    position: absolute;
+    left: 25.68%;
+    right: 40%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.column3 {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 1010px;
+    top: 29px;
+
+}
+
+#facebook {
+    margin-right: 15px;
+    margin-left: -20px;
+}
+
+#instagram {
+    margin-right: 15px;
+
+}
+
+#twitter {
+    margin-right: 15px;
+
+}
