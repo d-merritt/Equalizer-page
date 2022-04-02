@@ -292,7 +292,7 @@
     }
     
     body {
-        background-image: url('file:///Users/daramerritt/Desktop/Equalizer%20Landing%20Page%20DM/assets/bg-main-tablet.png');
+        background-image: url('../assets/bg-main-tablet.png');
         background-repeat: no-repeat, no-repeat;
 
     }
@@ -534,7 +534,7 @@
     }
 
     body {
-        background-image: url('file:///Users/daramerritt/Desktop/Equalizer%20Landing%20Page%20DM/assets/bg-main-mobile.png');
+        background-image: url('../assets/bg-main-mobile.png');
         background-repeat: no-repeat;
         background-size: -17.588rem 30rem;
         background-position: right top;
