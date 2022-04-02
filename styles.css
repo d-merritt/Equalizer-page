@@ -1,8 +1,4 @@
 
-body {
-
-}
-
 .logo1 {
     position: absolute;
     width: 146.09px;
@@ -14,9 +10,9 @@ body {
 .bgmaindesktop {
     position: absolute;
     width: 1613px;
-    height: 1758px;
-    left: -146px;
-    top: -112px;
+    height: 1775px;
+    left: -170px;
+    top: -200px;
 }
 
 #myHeader {
@@ -264,5 +260,506 @@ body {
 
 #twitter {
     margin-right: 15px;
+
+}
+
+#iosbutton:hover {
+    background-color: #66E2DC;  
+}
+
+#androidbutton:hover {
+    background-color: #FFB964;  
+}
+
+#facebook:hover path {
+    fill:#FA7453;  
+
+}
+
+
+/* For Tablet */
+@media only screen and (max-width: 768px) {
+    .logo1 {
+        position: absolute;
+        width: 146.09px;
+        height: 32px;
+        left: 39.15px;
+        top: 50px;
+    }
+
+    .bgmaindesktop {
+        display: none;
+    }
+    
+    body {
+        background-image: url('file:///Users/daramerritt/Desktop/Equalizer%20Landing%20Page%20DM/assets/bg-main-tablet.png');
+        background-repeat: no-repeat, no-repeat;
+
+    }
+    #myHeader {
+        position: absolute;
+        width: 520px;
+        height: 192px;
+        left: 39px;
+        top: 140px;
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727273px;
+    }
+    
+    #headerParagraph {
+        position: absolute;
+        width: 514px;
+        height: 112px;
+        left: 39px;
+        top: 395px;
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .bgpattern1 {
+        position: absolute;
+        transform: scale(.8);
+        left: 500px;
+        top: -80px;
+        }
+    .illustrationapp {
+        width: 270.21px;
+        height: 556px;
+        left: 97px;
+        top: 632px;
+        z-index: 1;
+    }
+    .premium_text_block {
+        background-color: #FA7453;
+        color: #FCFAF9;
+        position: absolute;
+        width: 399px;
+        height: 546px;
+        left: 272px;
+        top: 920px;
+        border-radius: 15px;
+        display: inline-block;
+        z-index: 2;
+    }
+    #black-box {
+        background-color: #191826;
+        position: absolute;
+        width: 696px;
+        height: 600px;
+        left: 33px;
+        top: 770px;
+        border-radius: 15px;
+    }
+    .bgpattern2 {
+        position: absolute;
+        width: 280px;
+        height: 420px;
+        left: 230px;
+        top: -35px;
+    }
+
+    #iosbutton {
+        background-color: #191826;
+        color: #FCFAF9;
+        border-radius: 12px;
+        border: none;
+        position: absolute;
+        width: 296px;
+        height: 61px;
+        margin: 363px 25px 25px 55px;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.18px;  
+    }
+
+    #ios {
+        position: absolute;
+        left: 22%;
+        right: 30%;
+        top: 33%;
+        bottom: 15%;
+    }
+
+    #androidbutton {
+        background-color: #FCFAF9;
+        color: #191826;
+        border-radius: 12px;
+        border: none;
+        position: absolute;
+        width: 296px;
+        height: 61px;
+        margin: 440px 25px 25px 55px;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.18px;  
+    }
+
+    #android {
+        position: absolute;
+        left: 16%;
+        right: 30%;
+        top: 33%;
+        bottom: 15%;
+    }
+
+    #premheader {
+        position: absolute;
+        width: 302px;
+        height: 40px;
+        margin: 45px 25px 25px 55px;
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
+    #premparagraph {
+        position: absolute;
+        width: 302px;
+        height: 140px;
+        margin: 100px 25px 25px 55px;
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #premfour {
+        position: absolute;
+        height: 52px;
+        left: 0%;
+        right: 52.12%;
+        top: calc(50% - 52px/2);
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 52px;
+        margin: 25px 25px 25px 55px;
+    }
+    
+    #premmonth {
+        position: absolute;
+        height: 32px;
+        left: 64%;
+        right: 0%;
+        top: calc(50% - 32px/2 - 1px);
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: -0.2px;
+        margin: 25px 25px 25px -105px;
+    }
+    .container {
+
+        position: absolute;
+        width: 696px;
+        height: 143px;
+        left: 33px;
+        top: 1553px;
+        margin: 20px;
+
+    }
+    .column1 {
+        position: absolute;
+        width: 146.09px;
+        height: 32px;
+        left: 1.15px;
+        top: -5px;
+    }
+    
+    .column2 {
+        position: absolute;
+        left: 0%;
+        right: 47.41%;
+        top: 28%;
+        bottom: 0%;
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    
+    }
+    
+    .column3 {
+        position: absolute;
+        width: 100px;
+        height: 20px;
+        left: 596px;
+        top: 94px;;
+    
+    }
+}
+
+/* For Mobile */
+@media only screen and (max-width: 375px) {
+
+    .logo1 {
+        position: absolute;
+        width: 146.09px;
+        height: 32px;
+        left: 24.15px;
+        top: 39.99px;
+    }
+    
+    .bgmaindesktop {
+        display: none;
+    }
+
+    body {
+        background-image: url('file:///Users/daramerritt/Desktop/Equalizer%20Landing%20Page%20DM/assets/bg-main-mobile.png');
+        background-repeat: no-repeat;
+        background-size: -17.588rem 30rem;
+        background-position: right top;
+ 
+    }
+
+    #myHeader {
+        position: absolute;
+        width: 327px;
+        height: 144px;
+        left: 24px;
+        top: 105px;
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.454545px;
+    }
+    
+    #headerParagraph {
+        position: absolute;
+        width: 327px;
+        height: 156px;
+        left: 24px;
+        top: 280px;
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .bgpattern1 {
+        display: none;
+        }
+    .illustrationapp {
+        position: absolute;
+        width: 208.97px;
+        height: 430px;
+        left: 80.67px;
+        top: 524px;
+        z-index: 3;
+    }
+    .premium_text_block {
+        background-color: #FA7453;
+        color: #FCFAF9;
+        position: absolute;
+        width: 375px;
+        height: 546px;
+        left: 0px;
+        top: 1002px;        
+        border-radius: 15px;
+        display: inline-block;
+        z-index: 2;
+    }
+    #black-box {
+        background-color: #191826;
+        position: absolute;
+        width: 375px;
+        height: 600px;
+        left: 0px;
+        top: 622px;
+        border-radius: 15px;
+    }
+    .bgpattern2 {
+        position: absolute;
+        width: 280px;
+        height: 420px;
+        left: 48px;
+        top: 0px;
+        z-index: 1;       
+    }
+
+    #iosbutton {
+        background-color: #191826;
+        color: #FCFAF9;
+        border-radius: 12px;
+        border: none;
+        position: absolute;
+        width: 296px;
+        height: 61px;
+        margin: 363px 25px 25px 35px;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.18px;  
+    }
+
+    #ios {
+        position: absolute;
+        left: 22%;
+        right: 30%;
+        top: 33%;
+        bottom: 15%;
+    }
+
+    #androidbutton {
+        background-color: #FCFAF9;
+        color: #191826;
+        border-radius: 12px;
+        border: none;
+        position: absolute;
+        width: 296px;
+        height: 61px;
+        margin: 440px 25px 25px 35px;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.18px;  
+    }
+
+    #android {
+        position: absolute;
+        left: 16%;
+        right: 30%;
+        top: 33%;
+        bottom: 15%;
+    }
+
+    #premheader {
+        position: absolute;
+        width: 302px;
+        height: 40px;
+        margin: 45px 25px 25px 35px;
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
+    #premparagraph {
+        position: absolute;
+        width: 302px;
+        height: 140px;
+        margin: 100px 25px 25px 35px;
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #premfour {
+        position: absolute;
+        height: 52px;
+        left: 0%;
+        right: 52.12%;
+        top: calc(50% - 52px/2);
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 52px;
+        margin: 25px 25px 25px 35px;
+    }
+    
+    #premmonth {
+        position: absolute;
+        height: 32px;
+        left: 64%;
+        right: 0%;
+        top: calc(50% - 32px/2 - 1px);
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: -0.2px;
+        margin: 25px 25px 25px -105px;
+    }
+    .container {
+
+        position: absolute;
+        width: 300px;
+        height: 143px;
+        left: 33px;
+        top: 1600px;
+        margin: 20px;
+
+    }
+    .column1 {
+        position: absolute;
+        width: 146.09px;
+        height: 32px;
+        left: -25px;
+        top: -0.01px;
+    }
+    
+    .column2 {
+        position: absolute;
+        left: -4%;
+        right: 0%;
+        top: 37.87%;
+        bottom: 0%;
+        width: 298px;
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    
+    }
+    
+    .column3 {
+        position: absolute;
+        width: 100px;
+        height: 20px;
+        left: -10px;
+        top: 230px;
+
+    }
 
 }
